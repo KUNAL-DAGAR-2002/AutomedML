@@ -1,0 +1,7 @@
+setup.py
+automatedMachineLearning.egg-info/PKG-INFO
+automatedMachineLearning.egg-info/SOURCES.txt
+automatedMachineLearning.egg-info/dependency_links.txt
+automatedMachineLearning.egg-info/requires.txt
+automatedMachineLearning.egg-info/top_level.txt
+modules/__init__.py

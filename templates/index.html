@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Page</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Points to remember</h1>
+    <ol>
+      <li>Please do not add date related data</li>
+      <li>Keep in mind the target varibale should be the last column</li>
+    </ol>
+  </div>
+    <div class="container">
+    <form action="/submit" method="post", enctype="multipart/form-data">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupFile01">Upload</label>
+            <input type="file" class="form-control" id="inputGroupFile01" name="file">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">What kind of data you have (Numerical, Categorical or Combined)</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="category">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">What kind of model do you want (classification or regression)</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="type_">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+</body>
+</html>
